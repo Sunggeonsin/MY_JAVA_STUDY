@@ -1,8 +1,8 @@
 package icehs.science.chapter07;
 
 public class Book {
-	String title;
-	String author;
+	private String title;
+	private String author;
 	int price;
 	
 	Book(){
@@ -27,9 +27,9 @@ public class Book {
 	}
 	
 	void printBookInfo() {
-		System.out.println("Ã¥ Á¦¸ñ : " + this.title);
-		System.out.println("ÀÛ°¡¸í : " + this.author);
-		System.out.println("°¡°Ý : " + this.price);
+		System.out.println("Ã¥ ï¿½ï¿½ï¿½ï¿½ : " + this.title);
+		System.out.println("ï¿½Û°ï¿½ï¿½ï¿½ : " + this.author);
+		System.out.println("ï¿½ï¿½ï¿½ï¿½ : " + this.price);
 	}
 
 }

@@ -1,15 +1,18 @@
 package icehs.science.chapter07;
 
+import icehs.science.chapter06.Car;
+
 public class BookTest {
 
 	public static void main(String[] args) {
 		Book book1 = new Book();
+		Car c1 = new Car();
 		
-		Book book2 = new Book ("ÇØ¸®Æ÷ÅÍ", 15000);
+		Book book2 = new Book ("ï¿½Ø¸ï¿½ï¿½ï¿½ï¿½ï¿½", 15000);
 		
-		Book book3 = new Book ("Ä®ÀÇ ³ë·¡", "±èÈÆ");
+		Book book3 = new Book ("Ä®ï¿½ï¿½ ï¿½ë·¡", "ï¿½ï¿½ï¿½ï¿½");
 		
-		Book book4 = new Book ("¹Ù¶÷ÀÇ µþ", "ÇÑºñ¾ß", 39200);
+		Book book4 = new Book ("ï¿½Ù¶ï¿½ï¿½ï¿½ ï¿½ï¿½", "ï¿½Ñºï¿½ï¿½", 39200);
 		
 		book1.printBookInfo();
 		book2.printBookInfo();
